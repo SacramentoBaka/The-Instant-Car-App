@@ -73,6 +73,7 @@ public class ProfileActivity extends AppCompatActivity {
 
                     case R.id.nav_home:
                         Log.i("Menu_Drawer_Tag", "Home item is clicked");
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_profile:

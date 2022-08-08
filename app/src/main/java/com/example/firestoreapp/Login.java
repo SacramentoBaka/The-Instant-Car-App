@@ -51,11 +51,11 @@ public class Login extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("checkbox", MODE_PRIVATE);
         String checkbox = preferences.getString("remember", "");
 
-        if(checkbox.equals("true")){
+        if(mAuth.getCurrentUser() != null && checkbox.equals("true")){
+
             startActivity(new Intent(Login.this, ProfileActivity.class));
             finish();
         }
-
 
         userLogInButton.setOnClickListener(new View.OnClickListener() {
             @Override
