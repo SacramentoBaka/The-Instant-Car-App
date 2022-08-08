@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_home"
+                        android:icon="@drawable/ic_baseline_home_24"
+                        android:title="Home" />
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/ic_baseline_full_names"
+                        android:title="Profile" />
+
+                    <item
+                        android:id="@+id/nav_settings"
+                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:title="Settings" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Lists">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_todo_list"
+                        android:icon="@drawable/ic_baseline_checklist"
+                        android:title="To-Do List" />
+                    <item
+                        android:id="@+id/nav_gross_list"
+                        android:title="Grocery List"
+                        android:icon="@drawable/ic_baseline_local_grocery_list"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Help &amp; Support">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_help"
+                        android:icon="@drawable/ic_baseline_help_24"
+                        android:title="Help" />
+                    <item
+                        android:id="@+id/nav_about"
+                        android:title="About"
+                        android:icon="@drawable/ic_baseline_menu_book_24"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <group>
+                    <item android:id="@+id/nav_sign_out"
+                        android:title="Log Out"
+                        android:icon="@drawable/ic_baseline_logout_24"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">List</string>
+    <string name="explore_what_s_on_our_app">Explore What\'s On Our App</string>
+    <string name="plan_your_day_week_or_month_using_the_to_do_list_here">*Plan your day, week, or Month using the TO-Do list here:</string>
+    <string name="to_do_lists">To-Do Lists</string>
+    <string name="never_forget_you_grocery_list_by_adding_your_list_here">*Never forget you Grocery list by adding your list here:</string>
+    <string name="grocery_lists">grocery-lists</string>
+    <string name="this_app_is_developed_by_a_university_of_limpopo_student">*This App is developed by a University of Limpopo Student</string>
+    <string name="makhubele_sacramento">Makhubele Sacramento</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_menu">open</string>
+    <string name="close_menu">close</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

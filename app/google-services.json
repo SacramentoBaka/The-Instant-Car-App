@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216909668361",
+    "project_id": "authenticationapp-48847",
+    "storage_bucket": "authenticationapp-48847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216909668361:android:b97ba07024288630c2d8d8",
+        "android_client_info": {
+          "package_name": "com.example.firestoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216909668361-3m2tpftirc2avo2hrjcccpa9nn3sjnes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs63tQ1bz_UTglaq765oQy86WE2UcGHnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216909668361-3m2tpftirc2avo2hrjcccpa9nn3sjnes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
