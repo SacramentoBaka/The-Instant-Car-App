@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#A6000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="we are a car rental app provider called The Instant Car Rental App formed in the year 2022. we seek to make car renting lubricative, easy and user friendly by providing different organisations with a less time consuming app to rent out their cars. we strive to enhance the reputation of our customers therefore, we provide the best and easy services available for their utilisation 24 hours."/>
+
+    </ScrollView>
+
+</LinearLayout>

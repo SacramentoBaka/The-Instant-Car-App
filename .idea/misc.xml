@@ -10,35 +10,66 @@
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_baseline_full_names.xml" value="0.222" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.226" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.222" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_car_rental.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_cost.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_edit_road.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_hourglass_top.xml" value="0.2385" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.226" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable-v24/ic_reserve.xml" value="0.226" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/backgroud_border.xml" value="0.226" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/button_style.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/circle_background.xml" value="0.2375" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/cut_card_background.xml" value="0.2375" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/gradient1.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/gradient2.xml" value="0.262" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/gradient3.xml" value="0.262" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_baseline_calculate_24.xml" value="0.2385" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_fnb_bank.xml" value="0.2375" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.222" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_menu_camera.xml" value="0.226" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.226" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.226" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.226" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_drawer.xml" value="0.152" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.5049603174603174" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_home.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_login.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_main.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_main.xml" value="0.49901960784313726" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_main2.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_profile.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_profile.xml" value="0.5009842519685039" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/activity_sign.xml" value="0.498015873015873" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/app_bar_home.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/car_list.xml" value="0.22554347826086957" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/content_home.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/custom_pop_up.xml" value="0.23125" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_Home.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_about.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_about.xml" value="0.5822454308093995" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_contact_us.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_cost.xml" value="0.4375" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_gallery.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_grocersy_list.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_help.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_home.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_profile.xml" value="0.23125" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_home.xml" value="0.5049603174603174" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_man_reservation.xml" value="0.4375" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_mission.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_new_reservation.xml" value="0.4375" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_our.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_profile.xml" value="0.4627272727272727" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_promotion.xml" value="0.5049603174603174" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_settings.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_term_reservation.xml" value="0.4375" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_todo_list.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_vission.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_what.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/fragment_who.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/header_menu.xml" value="0.176" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/nav_header.xml" value="0.4" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/layout/nav_header_home.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.522248243559719" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/menu/drawer_menu.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/menu/home.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/sacra/AndroidStudioProjects/FirestoreApp/app/src/main/res/menu/nav_menu.xml" value="0.23229166666666667" />

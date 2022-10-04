@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">List</string>
+    <string name="app_name">Instant Car Rental</string>
     <string name="explore_what_s_on_our_app">Explore What\'s On Our App</string>
     <string name="plan_your_day_week_or_month_using_the_to_do_list_here">*Plan your day, week, or Month using the TO-Do list here:</string>
     <string name="to_do_lists">To-Do Lists</string>
@@ -19,4 +19,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="about">Rental services are very popular as they help in going to different areas with ease. Specially, after reaching to a new place the Instant Car Rental services are the first thing for which a person looks. We are the best mode of transport and we are located right on the exits of the airport, this helps in locating us easily. These services offer many different types of cars, small cozy cars, medium sized cars, budget cars, luxurious cars, big cars, etc. With all such variants of cars, one can easily select the best one as per the need. The rates of these services are charged as per the type of car, some of them are expensive as they contain all the different amenities whereas other are low in rates as they are simple.</string>
+    <string name="drive_confidently">Drive confidently with your choice of protection plans - all plans include third party liability insurance from Travelers and varying levels of physical damage protection from Instant that caps your out-of-pocket responsibility for damage to your host\'s car during your trip.</string>
+    <string name="endless_options">Choose from hundreds of models you won\'t find anywhere else. Pick it up or get it delivered where you want it.</string>
+    <string name="got_your_back">Rest easy knowing that the Instant car rental community is pre-screened, and customer support and road assistance are just a tap away.</string>
+    <string-array name="title">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Miss</item>
+        <item>Prof</item>
+    </string-array>
 </resources>

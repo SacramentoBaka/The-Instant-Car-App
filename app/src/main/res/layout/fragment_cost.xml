@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Cost"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#D81C0840"
+                android:fontFamily="@font/abril_fatface"
+                android:text="See what you can afford"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:background="@color/black">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/money_box"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loan_money"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="1.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="#DA1C0840"
+                android:fontFamily="@font/abril_fatface"
+                android:text="Calculate Budget"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:text="Do not save what is left after spending, but spend what is left after saving."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="The price of anything is the amount of life you exchange for it."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:orientation="vertical"
+                android:theme="@style/splashScreenTheme1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Know Your Budget Here"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/rent_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Rental Amount e.g R50 000"
+                    android:padding="10dp"
+                    android:textColorHint="#989696">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black"
+                        android:inputType="number"
+                        android:textColor="@color/white" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/deposit_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Deposit e.g R 5000"
+                    android:padding="10dp"
+                    android:textColorHint="#989696">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black"
+                        android:inputType="number"
+                        android:textColor="@color/white" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pay_period"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Payment Period (e.g days)"
+                    android:padding="10dp"
+                    android:textColorHint="#989696">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black"
+                        android:inputType="number"
+                        android:textColor="@color/white" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/residual_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Residual e.g 20%"
+                    android:padding="10dp"
+                    android:textColorHint="#989696">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black"
+                        android:inputType="number"
+                        android:textColor="@color/white" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Interest Rate e.g 5%"
+                    android:padding="10dp"
+                    android:textColorHint="#989696">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black"
+                        android:inputType="number"
+                        android:textColor="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/costCalc"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#404040"
+                    android:fontFamily="sans-serif"
+                    android:text="calculate"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:theme="@style/splashScreenTheme1"
+                    app:icon="@drawable/ic_baseline_calculate_24" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Estimated Instalment"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/estimatedAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estimated Total Interest"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/estimatedRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estimated Total Excluding Deposit &amp; Residual"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/estimatedTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="___________________________"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="Click icons below to Visit Bank of your choice for Loan"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="25dp"
+                android:background="@color/black">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    tools:ignore="UselessParent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/fnb_link"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_fnb" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/capitec_link"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_capitec" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/instant_link"
+                            android:layout_width="65dp"
+                            android:layout_height="45dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/logo_rental" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/discovery_link"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_discovery" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/absa_link"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_absa" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/standard_bank_link"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_standard_bank" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/netBank_link"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:src="@drawable/ic_netbank" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/family_travel"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

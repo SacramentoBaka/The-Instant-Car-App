@@ -5,13 +5,13 @@
     android:layout_height="176dp"
     android:padding="10dp"
     android:gravity="bottom"
-    android:background="@color/black">
+    android:background="@drawable/bar_image">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
-        android:src="@drawable/icon_app"/>
+        android:src="@drawable/logo_rental"/>
 
     <TextView
         android:layout_marginTop="10dp"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/amethysta"
-        android:text="Welcome"
+        android:text="Hello Welcome"
         android:textColor="@color/white"
         android:textStyle="bold" />
     <TextView

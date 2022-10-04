@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.FirestoreApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="android:windowBackground">@drawable/icon_back</item>
+        <item name="android:windowBackground">#121F29</item>
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/black</item>

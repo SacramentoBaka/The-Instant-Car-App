@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6000000"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Impact, It is easy for customers to find what there are looking for without waiting on hold or speaking with a representative over the phone. It also eliminates lost records of reservations, which saves time and money in both instances, rent cars at affordable prices, Easy and free cancellation or change the date/time on the spot if something comes up, Easy means of payment and 24-hour a day ,7days a week access to the service"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </ScrollView>
+
+</LinearLayout>

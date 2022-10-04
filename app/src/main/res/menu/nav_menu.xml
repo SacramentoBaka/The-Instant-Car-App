@@ -24,17 +24,29 @@
     </group>
 
     <group android:checkableBehavior="single">
-        <item android:title="Lists">
+        <item android:title="Rent Operations">
             <menu>
                 <group>
                     <item
-                        android:id="@+id/nav_todo_list"
-                        android:icon="@drawable/ic_baseline_checklist"
-                        android:title="To-Do List" />
+                        android:id="@+id/nav_new_reserve"
+                        android:icon="@drawable/ic_reserve"
+                        android:title="New Reservation" />
                     <item
-                        android:id="@+id/nav_gross_list"
-                        android:title="Grocery List"
-                        android:icon="@drawable/ic_baseline_local_grocery_list"/>
+                        android:id="@+id/nav_manage_reserve"
+                        android:title="Manage Reservation"
+                        android:icon="@drawable/ic_edit_road"/>
+                    <item
+                        android:id="@+id/nav_manage_term"
+                        android:title="Manage Term Reservation"
+                        android:icon="@drawable/ic_car_rental"/>
+                    <item
+                        android:id="@+id/nav_cost"
+                        android:title="Cost"
+                        android:icon="@drawable/ic_cost"/>
+                    <item
+                        android:id="@+id/nav_promotion"
+                        android:title="Promotions"
+                        android:icon="@drawable/ic_hourglass_top"/>
                 </group>
             </menu>
         </item>
@@ -43,6 +55,10 @@
         <item android:title="Help &amp; Support">
             <menu>
                 <group>
+                    <item
+                        android:id="@+id/nav_contact_Us"
+                        android:icon="@drawable/ic_baseline_contact_support_24"
+                        android:title="Contact Us" />
                     <item
                         android:id="@+id/nav_help"
                         android:icon="@drawable/ic_baseline_help_24"
